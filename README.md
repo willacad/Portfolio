@@ -1,2 +1,2 @@
 # Portfolio
-Projeto de portifolio simples
+Projeto de portfolio simples
