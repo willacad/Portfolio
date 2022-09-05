@@ -212,7 +212,7 @@ a, h1, h2, p {
 .portfolio__img {
   width: 300px;
   height: 200px;
-  background-image: url("./assets/ps6.png");
+  background-image: url("./assets/game.png");
   background-size: cover;
   border-radius: 15px;
   margin-bottom: 20px;
