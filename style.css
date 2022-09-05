@@ -390,6 +390,7 @@ a, h1, h2, p {
 
   .home__title {
     text-align: center;
+    font-size: 30px;
   }
 
   .portfolio__cards {
