@@ -198,9 +198,9 @@ a, h1, h2, p {
 }
 
 .portfolio__cards {
-  display: flex;
-  justify-content: space-around;
-  width: 90vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 600px;
 
 }
 
@@ -208,8 +208,9 @@ a, h1, h2, p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2px;
+
 }
+
 
 .portfolio__img {
   width: 300px;
@@ -218,7 +219,18 @@ a, h1, h2, p {
   background-size: cover;
   border-radius: 15px;
   margin-bottom: 20px;
+  transition: .3s;
 
+
+}
+
+.portfolio__img:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 1px 30px 0px aqua;
+}
+
+.portfolio__img-1 {
+  background-image: url("./assets/capa-vr.png");
 }
 
 .portfolio__img-2 {
@@ -284,6 +296,7 @@ a, h1, h2, p {
 }
 
 .reference__secound-title {
+  text-align: center;
   font-weight: 300;
   font-size: 16px;
   line-height: 23px;
