@@ -431,7 +431,8 @@ a, h1, h2, p {
 
 
   .portfolio__cards {
-    height: 900px;
+    display: flex;
+    height: 1200px;
     flex-direction: column;
     justify-content: space-around;
   }
